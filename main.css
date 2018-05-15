@@ -1,0 +1,84 @@
+body{
+    font-size: 20px;    
+}
+
+.top {
+    font-size: 26pt;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background: url(himBgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header{
+    padding-top: 20px;
+}
+.left-panel{
+}
+.right-panel{
+    font-size: 20px;
+}
+
+.center-panel img {
+    padding: 20px;
+    width: 100%;
+}
+
+.right-panel .phone {
+    height: 90px;
+}
+.right-panel .phone img {
+    height: 100%;
+}
+
+li.cont{
+    display: inline-flex;
+}
+
+.cont-img{
+    width: 200px;
+    text-align: left;
+}
+.cont-img img{
+    height: 30px;
+}
+
+.ref .card-header {
+    cursor: pointer;
+}
+
+.ref div.imgBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ref h5 {
+    font-weight: bold;
+    font-style: italic;
+}
+.ref img {
+    max-height: 400px;
+    width: auto !important;
+    padding: 20px;
+}
+.ref .ref-text{
+    height: auto;
+    font-size: smaller;
+    overflow: auto;
+}
+
+
+.copyright {
+    padding: 0;
+}
+
+.copyright-text {
+    padding: 0;
+    font-size: 10pt;
+    background: #dedede;
+    color: #333333;
+    text-align: center;
+}
