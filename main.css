@@ -12,6 +12,11 @@ body{
     background-size: cover;
 }
 
+.info{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .page-header{
     padding-top: 20px;
 }
@@ -124,6 +129,7 @@ body{
     padding: 20px;
     margin: 0 15px 10px 15px;
     position: relative;
+    height: 300px;
 }
 .testimonial:before{
     content: "";
@@ -144,12 +150,15 @@ body{
     margin-top: 0;
 }
 .testimonial .description{
-    font-size: 14px;
+    font-size: 18px;
     color: #555;
     line-height: 30px;
+    overflow: auto;
+    height: 150px;
 }
 .testimonial .testimonial-content{
     position: relative;
+    height: 140px;
 }
 .testimonial .testimonial-content:after{
     content: "\f10e";
@@ -162,7 +171,6 @@ body{
 }
 .testimonial .pic{
     display: inline-block;
-    float: left;
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -187,15 +195,6 @@ body{
     font-size: 14px;
     color: #555;
     line-height: 24px;
-}
-.testimonial .rating{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.testimonial .rating li{
-    display: inline-block;
-    color: #ffc207;
 }
 .owl-theme .owl-controls{
     margin-top: 20px;
