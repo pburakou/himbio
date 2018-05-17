@@ -22,6 +22,8 @@ body{
 }
 .right-panel{
     font-size: 20px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .center-panel img {
@@ -35,68 +37,6 @@ body{
 .right-panel .phone img {
     height: 100%;
 }
-.carousel-inner {
-    min-height: 500px;
-}
-.carousel-indicators li {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    cursor: pointer;
-    border: 4px solid #CCC;
-    border-radius: 50px;
-    opacity: 0.4;
-    overflow: hidden;
-    transition: all 0.4s;
-}
-
-.carousel-indicators li .active {
-    background: #333333;
-    width: 228px;
-    height: 228px;
-    border-radius: 100px;
-    border-color: #f33;
-    opacity: 1;
-    overflow: hidden;
-}
-
-.carousel-indicators li img{
-    display: block;
-}
-
-.cont-img{
-    width: 200px;
-    text-align: left;
-}
-.cont-img img{
-    height: 30px;
-}
-
-.ref .card-header {
-    cursor: pointer;
-}
-
-.ref div.imgBox {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.ref h5 {
-    font-weight: bold;
-    font-style: italic;
-}
-/* .ref img {
-    max-height: 400px;
-    width: auto !important;
-    padding: 20px;
-} */
-.ref .ref-text{
-    height: auto;
-    font-size: smaller;
-    overflow: auto;
-}
-
 
 .copyright {
     padding: 0;
@@ -110,20 +50,10 @@ body{
     text-align: center;
 }
 
-.carousel-item blockquote {
-    border-left: none;
-    margin: 0;
+#testimonial-slider{
+    background-color: rgba(12, 138, 98, 0.287);
+    border-top: solid 1px transparent;
 }
-.carousel-item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
-
-
-
-
 .testimonial{
     background: #fff;
     padding: 20px;
@@ -205,5 +135,19 @@ body{
 @media only screen and (max-width: 479px){
     .testimonial .testimonial-content:after{
         content: "";
+    }
+
+    .testimonial .description{
+        font-size: 14px;
+    }    
+
+    .testimonial-content {
+        display: flex;
+    }
+    .testimonial-content .pic {
+        flex : 0 0 auto;
+    }
+    .testimonial-content .post {
+        font-size: 12px;
     }
 }
