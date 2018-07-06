@@ -132,7 +132,20 @@ body{
 .owl-theme .owl-controls .owl-page span{
     background: #0d8a63;
 }
-@media only screen and (max-width: 479px){
+/*media only screen and (max-width: 479px*/
+@media only screen and (max-width: 800px){
+    .page-header{
+        padding-right: 0;
+    }
+    .left-panel{
+        padding-right: 0;
+    }
+    .fio{
+        font-size: 18px; 
+    }
+    .profession{
+        font-size: 16px; 
+    }
     .testimonial .testimonial-content:after{
         content: "";
     }
@@ -149,5 +162,5 @@ body{
     }
     .testimonial-content .post {
         font-size: 12px;
-    }
+    }    
 }
