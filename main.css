@@ -50,6 +50,23 @@ body{
     text-align: center;
 }
 
+.list-group-item.cont {
+    display: inline-flex;
+}
+
+.list-group-item.cont .cont-img {
+    width: auto;
+}
+
+.list-group-item.cont .cont-img > img {
+    width: auto;
+    height: 30px;
+}
+
+.list-group-item.cont .cont-img > a {
+    align-self: center;
+}
+
 #testimonial-slider{
     background-color: rgba(12, 138, 98, 0.287);
     border-top: solid 1px transparent;
