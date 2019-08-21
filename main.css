@@ -1,5 +1,9 @@
+@import url(futuris-cyrillic.ttf);
+
 body{
     font-size: 20px;    
+    font-family: 'Futuris Cyrillic', arial;
+    text-shadow: 1px 1px 14px #eeeeee;
 }
 
 .top {
@@ -56,6 +60,7 @@ body{
 
 .list-group-item.cont .cont-img {
     width: auto;
+    padding-right: 10px;
 }
 
 .list-group-item.cont .cont-img > img {
@@ -180,4 +185,18 @@ body{
     .testimonial-content .post {
         font-size: 12px;
     }    
+}
+/* iPhone */
+@media only screen and (max-width: 400px){
+    .profession{
+        font-size: 1.6rem;
+    }
+
+    .list-group-item.cont:nth-child(2) img{
+        height: 30px !important;
+    }
+
+    .list-group-item.cont:nth-child(2) a { 
+        white-space: nowrap;
+    }
 }
