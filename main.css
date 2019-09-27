@@ -7,13 +7,13 @@ body{
 }
 
 .top {
-    font-size: 26pt;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 34pt;
+    padding-top: 4px;
+    padding-bottom: 4px;
     text-align: center;
     background: url(himBgr.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-x;
+    background-size: contain;
 }
 
 .info{
@@ -36,14 +36,14 @@ body{
 }
 
 .right-panel .phone {
-    height: 90px;
+    height: 90px;    
 }
 .right-panel .phone img {
     height: 100%;
 }
 
 .copyright {
-    padding: 0;
+    padding: 4px 0;
 }
 
 .copyright-text {
