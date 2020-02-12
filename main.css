@@ -104,13 +104,13 @@ body{
 .testimonial .description{
     font-size: 18px;
     color: #555;
-    line-height: 30px;
     overflow: auto;
     height: 150px;
 }
 .testimonial .testimonial-content{
     position: relative;
     height: 140px;
+    display: flex;
 }
 .testimonial .testimonial-content:after{
     content: "\f10e";
