@@ -72,6 +72,10 @@ body{
     align-self: center;
 }
 
+#headingReferences h5 {
+    color: #007bff;
+}
+
 #testimonial-slider{
     background-color: rgba(12, 138, 98, 0.287);
     border-top: solid 1px transparent;
