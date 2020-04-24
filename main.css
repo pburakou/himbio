@@ -204,3 +204,9 @@ body{
         white-space: nowrap;
     }
 }
+
+
+.skype-img{
+    background: no-repeat url(skype-icon.svg);
+    background-size: 30px 30px;
+}
