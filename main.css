@@ -194,7 +194,6 @@ body{
 @media only screen and (max-width: 400px){
     .profession{
         font-size: 1.6rem;
-        text-align: center;
     }
 
     .list-group-item.cont:nth-child(2) img{
